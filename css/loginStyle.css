@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(../img/login.jpg);
+    background-color:rgb(205, 206, 128);
+    margin-top: 200px;
+    margin-left: 300px;
+}
+#form {
+    margin: auto;
+    background-color: rgba(194, 135, 96, 0.548);
+    width:40%;
+    padding: 30px;
+    border-radius: 15x;
+    font-size: 30px;
+    color: rgb(19, 17, 17);
+    font-weight: 700;
+}
+div{
+    width: 550px;
+    border-radius: 10px;
+    height: 350px;
+}
+.large-input {
+    width: 250px; 
+    padding: 5px;
+    font-size: 20px; 
+    border-radius: 8px;
+}
+#btn{
+color:rgb(251, 252, 253);
+background: linear-gradient(to bottom, rgb(128, 41, 67), #b97f29);
+padding: 10px 25px;
+font-size: 25px;
+border-radius: 10px;
+}
+#btn:hover {
+    background: linear-gradient(to bottom, rgb(37, 15, 134), rgba(22, 160, 185, 0.953)); /* Change the gradient colors on hover */
+}
+@media screen and (max-width:700px)
+{
+#form{
+
+    width:65%;
+    padding:48px;
+    position: absolute;
+    top: 50%;
+}
+}

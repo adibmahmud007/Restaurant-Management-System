@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    margin: 5;
+    padding: 5;
+    height: max-content;
+    background-image: url('../img/bill.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(242, 246, 249);
+    
+}
+h3{
+    font-size: 28px;
+}
+P{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(242, 246, 249);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(12, 14, 15);
+    background-color: aliceblue;
+    width: 200px;
+    margin-left: 650px;
+}
+
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th,
+td {
+    padding: 3px;
+    text-align: left;
+}
+
+th {
+    background-color: #0d0d12e7;
+    color: rgb(242, 246, 249);
+}
+
+tr:nth-child(even) {
+    background-color: #e19c6b;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: #453173;
+
+}
+
+
+tr:hover {
+    background-color: rgb(237, 126, 126);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(252, 13, 13, 0.688);
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgb(158, 144, 238), #61ddee);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, rgb(90, 223, 221), #1d23cd);
+}
+button{
+    color: #c6c5ca;
+    background: linear-gradient(to bottom, rgb(168, 93, 86), #5d539f);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 600;
+}
+button:hover{
+    background: linear-gradient(to top, rgb(74, 56, 176), #e34040);
+}

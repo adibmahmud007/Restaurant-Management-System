@@ -1,0 +1,44 @@
+
+
+body{
+    background-image: url('../img/inventory.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+   
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+h2{
+    color: rgb(5, 5, 14);
+    font-size: 2.5rem ;
+}
+
+
+li {
+    margin-bottom: 30px;
+}
+
+a { 
+    text-decoration:none ;
+    font-size: 2rem;
+    color: rgb(9, 5, 20);
+    padding: 5px 20px;
+    background-color: #d6a2a2;
+    border: 2px solid #0e0d0d;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    background-color: #333;
+    color: #d6a2a2;
+}

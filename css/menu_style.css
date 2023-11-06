@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    color:rgb(2, 1, 10);
+    margin: 5;
+    padding: 5;
+    height: 100vh;
+    background-image: url('../img/menubg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: rgb(15, 16, 16);
+    margin-left: 400px;
+    width: fit-content;
+    background-color: rgba(240, 248, 255, 0.378);
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 40%;
+    margin: 40px ;
+    margin-left: 200px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(1, 0, 2);
+    font-size: large;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0d0d12e7;
+    color: rgb(242, 246, 249);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(69, 91, 85, 0.675);
+    color: white;
+    font-weight: 550;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(166, 91, 17, 0.771);
+    font-weight: 550;
+}
+
+
+tr:hover {
+    background-color: rgba(59, 179, 99, 0.527);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: circle;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:cornsilk
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(252, 13, 13, 0.688);
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgb(158, 144, 238), #61ddee);
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, rgb(142, 14, 14),#a82a14);
+}
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e7e4f0;
+    padding: 5px 20px;
+    border: 2px solid #b35cea;
+    border-radius: 3.5px;
+    transition: all 0.2s ease;
+}

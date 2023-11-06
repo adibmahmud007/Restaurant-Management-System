@@ -1,0 +1,41 @@
+
+body{
+    background-image: url('../img/pic23.JPG ');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    margin: 70px;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+}
+p{
+    color: #f0f0fc;
+    font-weight: 700;
+    font-size: 2.3rem ;
+}
+
+
+li {
+    margin-bottom: 30px;
+}
+
+a { 
+    text-decoration:none ;
+    font-size: 2rem;
+    color: #c8c6ce;
+    background-color: #dfdde41f;
+    padding: 5px 20px;
+    border: 2px solid #d16969;
+    border-radius: 3.5px;
+    transition: all 0.2s ease;
+   
+}
+
+a:hover {
+    background-color: #333;
+    color: #d6a2a2;
+}

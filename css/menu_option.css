@@ -1,0 +1,45 @@
+
+
+body{
+    background-image: url('../img/menu_option_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+   
+    max-width: 850px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 600px;
+    margin-top: 180px;
+}
+h2{
+    color: rgb(236, 236, 240);
+    font-size: 2.5rem ;
+    margin-left: 100px;
+}
+
+
+li {
+    margin-bottom: 25px;
+    margin-left: 90px;
+}
+
+a { 
+    text-decoration:none ;
+    font-size: 2rem;
+    color: rgb(9, 5, 20);
+    padding: 5px 20px;
+    background-color: #d6a2cf;
+    border: 2px solid #0e0d0d;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    background-color: #333;
+    color: #d6a2cf;
+}
